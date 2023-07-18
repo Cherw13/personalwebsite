@@ -1,0 +1,309 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+.sectionOneProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #E0DFFF;
+  padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.project-image{
+  width: 24vw;
+  margin-left: 5vw;
+}
+.text{
+  font-family: 'Poppins', sans-serif;
+  padding:20px;
+  margin-left: 6vw;
+}
+.timeAndstrategies{
+  font-weight: 400;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+.descriptionOfProject{
+  margin-top: 1vw;
+  width: 50vw;
+  font-size: 1.26vw;
+  
+}
+.finalPrototypebtn{
+  display: inline-block;
+  padding:13px 30px;
+  background-color: #4F2C65;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 3vw;
+  transition: all 0.2s ease;
+}
+
+.finalPrototypebtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.context{
+  font-family: 'Poppins', sans-serif;
+  background-color: #F8F7F9;
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 10vw;
+  align-items: center; /* vertically center the content */
+  justify-content: center; /* horizontally center the content */
+}
+.contextTitle{
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-weight: 600;
+margin-top: 4vw;
+margin-bottom: 5vw;
+}
+.contextDescription{
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3vw;
+  
+}
+.boldParts{
+  font-weight: 600;
+}
+.processBreakdown{
+  margin-top: 7vw;
+}
+.process-timeline{
+  width: 90vw;
+  justify-content: center;
+  display: inline-block;
+  margin-left: 4.5vw;
+  margin-bottom: 5vw;
+  margin-top: 1vw;
+}
+.problem {
+  font-family: 'Poppins', sans-serif;
+  background-color: #E0DFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 10vw;
+  align-items: center; /* vertically center the content */
+  justify-content: center; /* horizontally center the content */
+}
+.problemTitle {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 4vw;
+  margin-bottom: 5vw;
+  }
+  .problemDescription {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 3vw;
+    
+  }
+.video{
+  width:80vw;
+  margin-bottom: 4vw;
+}
+.header{
+  font-family: 'Poppins', sans-serif;
+  background-color: #57048B;
+  color:whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 10vw;
+  align-items: center; /* vertically center the content */
+  justify-content: center; /* horizontally center the content */
+}
+.headerTitle {
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-weight: 600;
+margin-top: 4vw;
+margin-bottom: 5vw;
+}
+.headerDescription {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3vw;
+  
+}
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f1f1f1;
+}
+
+.iframe-container iframe {
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-top: 2vw;
+  background-color: #f1f1f1;
+  
+}
+.ancedote-images{
+  display:flex;
+  flex-direction: row;
+  justify-content: center; /* Center the images horizontally */
+  gap:5vw;
+  
+}
+.ancedote-images img {
+  margin-top: 6vw;
+  width: 40vw;
+  height: auto;
+  margin-bottom: 6vw;
+}
+
+.numbering {
+
+  display: inline-block;
+
+  width: 6vw; /* Set width to match the font-size */
+  height: 6vw; /* Set height to match the font-size */
+  text-align: center;
+  color:#57048B;
+  font-size: 2.7vw;
+  border-radius: 50%; /* This creates a circle shape */
+  background-color: #F8F8F8; /* Set the background color to white */
+  line-height: 2.3em; /* Vertically center the number inside the circle */
+  font-weight: 600;
+  margin-bottom: 4vw;
+}
+
+.numbering-container {
+  display: flex;
+  flex-direction: column; /* Display the numbers in a column */
+  align-items: flex-start; 
+  width: 80vw;
+}
+
+.parts {
+  display: flex; /* Add this to make .part1 items aligned horizontally */
+  align-items: flex-start; /* Align the items to the top of the container */
+}
+
+.description {
+  flex: 1; /* Let the description take the remaining available space */
+  margin-left: 1vw; /* Add left margin to separate numbering from description */
+  padding-top: 0.5vw; /* Add some padding at the top for better alignment */
+}
+.description{
+  font-weight: 400;
+  margin-bottom: 3vw;
+}
+.iteration{
+  width:80vw;
+}
+.twoPhrase{
+  width:70vw;
+
+}
+.phrase{
+  background-color: #eeeeeeff;
+  display:flex;
+justify-content: center;
+
+}
+
+
+.reflection{
+  font-family: 'Poppins', sans-serif;
+  background-color: whitesmoke;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 15vw;
+  align-items: center; /* vertically center the content */
+  justify-content: center; /* horizontally center the content */
+}
+.reflectionTitle {
+  color:black;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-weight: 600;
+margin-top: 4vw;
+margin-bottom: 5vw;
+}
+.reflectionDescription {
+  color:black;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3vw;
+}
+
+.button-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+
+}
+.reflectionBtn{
+  padding:13px 30px;
+  border:solid black 2px;
+  color:black;
+  background-color: #E0DFFF;
+  border-radius :4px;
+  box-shadow: inset 0 0 0 0 #b6b5ec;
+  transition:ease-out 0.35s;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline:none;
+}
+.reflectionBtn:hover{
+  box-shadow: inset 300px 0 0 0 #b6b5ec;
+}
+
+@media only screen and (max-width:800px){
+  .sectionOneProject {
+    flex-direction: column;
+  }
+
+  .text{
+    order:2;
+    margin-left:7%;
+  }
+
+  .descriptionOfProject{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    font-size:15px;
+  }
+
+  .timeAndstrategies{
+    font-size:15px;
+  }
+
+  .project-image{
+    width:50vw;
+    margin:0;
+    order:1;
+  }
+  .ancedote-images img{
+    width:90vw;
+  }
+  .ancedote-images{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+ 
+}

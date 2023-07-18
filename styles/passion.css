@@ -1,0 +1,64 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+.containerProjects {
+  display:grid;
+  grid-template-columns: repeat(2,auto);
+}
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5vw;
+  margin-left: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-weight: 550;
+}
+.project {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+.project span{
+  margin-top: 2vw;
+  margin-bottom: 0.5vw;
+  display:inline-block;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.project p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.projectTags{
+  margin: 0 5px;
+}
+.project-image {
+  width: 40vw;
+  border-radius: 20px;
+  overflow: hidden; /* Ensure that the scaled image stays within the container */
+  transition: transform 0.2s ease; /* Add a smooth transition effect */
+}
+
+.project-image:hover {
+  transform: scale(1.05); /* Increase the scale by 5% on hover */
+  cursor: pointer;
+}
+
+@media only screen and (max-width:800px){
+.containerProjects{
+  grid-template-columns: repeat(1,auto);
+}
+.project-image{
+  width:80vw;
+}
+}

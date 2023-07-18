@@ -1,0 +1,246 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+.sectionOne {
+  position: relative;
+  overflow: hidden;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background:#ffffff radial-gradient(ellipse at center, #D7E3F9, #F9D7E5 50%, #FFFFED);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sectionOne:hover {
+  animation: gradientAnimation 3s infinite;
+}
+
+@keyframes gradientAnimation {
+  33% {
+    background: #ffffff radial-gradient(ellipse at center, #F9D7E5, #D7E3F9 50%, #FFFFED);
+  }
+  66% {
+    background: #ffffff radial-gradient(ellipse at center, #D7E3F9, #FFFFED 50%, #F9D7E5);
+  }
+  100% {
+    background: #ffffff radial-gradient(ellipse at center, #D7E3F9, #F9D7E5 50%, #FFFFED);
+  }
+}
+
+
+.sectionOne h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  color:black;
+  text-align: center;
+  font-weight: 600; 
+}
+.sectionOne h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color:black;
+  text-align: center;
+  font-weight: 700; 
+}
+.scroll-down{
+  color:black;
+  position:absolute;
+  top:60%;
+}
+.scroll-down i{
+  display:block;
+  transition: all .50s ease; 
+}
+.scroll-down i:hover{
+ transform:translateY(5px);
+}
+.project-top-label{
+  font-size: 40px;
+  font-family: 'Allerta', sans-serif;
+  padding-left:8%;
+  padding-bottom: 4%;
+  width:100%;
+}
+
+.project-inner-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:   flex-end;
+  padding-bottom: 10vh;
+  padding-top:10vh;
+  overflow-x: hidden;
+  
+}
+
+.project-inner-left{
+  display: flex;
+  justify-content: center;
+  width:50vw;
+  align-items: center;
+}
+
+.project-inner-left img{
+  width:400px;
+  background-size: contain;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: transform 0.3s ease;
+}
+.project-inner-left img:hover {
+  transform: scale(1.05); /* Increase the scale by 5% on hover */
+  cursor: pointer;
+}
+
+.project-inner-right{
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:14px;
+  width:50vw;
+  padding:70px;
+}
+
+.left-1{
+  order:1;
+}
+
+.right-1{
+  order:0;
+}
+
+.project-inner-right div{
+  padding-left:4vw;
+  padding-right:2vw;
+  line-height: 1.5;
+}
+
+.project-inner-right-name{
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.22rem;
+}
+
+.project-inner-right-description{
+  font-size:1.1rem;
+}
+
+.project-inner-right-tags{
+  display:flex;
+  column-gap: 20px;
+  row-gap: 10px;
+  flex-wrap:wrap;
+}
+
+.projectEachTag{
+  background-color:#E0DFFF;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+
+.project-inner-right-availableText{
+  color:#686868;
+  font-size: 1rem;
+  font-weight:600;
+}
+
+.project-inner-right-availableText span{
+  display:inline-block;
+  transition: transform 0.5s, color 0.5s;
+  cursor: pointer;
+}
+
+.project-inner-right-availableText span:hover{
+  transform: translateX(0.5vw);
+}
+
+
+
+
+@media only screen and (max-width:968px){
+  .sectionOne h1 {
+    font-size: 30px;
+  }
+  .sectionOne h2 {
+    font-size: 17px;
+  }
+  .project-inner-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5vh;
+  }
+
+  .project-inner-left{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .project-inner-left img{
+  width:420px;
+  }
+  .project-inner-right{
+  width:90vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding:8px;
+  }
+
+  .left-1{
+    order:0;
+  }
+  
+  .right-1{
+    order:1;
+  }
+
+}
+@media only screen and (max-width:417px){
+  .project-inner-left img{
+    padding-bottom: 1vh;
+    width:270px;
+    }
+}
+@media only screen and (max-width:270px){
+  .sectionOne h2 {
+    font-size: 10px;
+  }
+  .sectionOne h1 {
+    font-size: 30px;
+  }
+
+  .project-inner-left img{
+    padding-bottom: 1vh;
+    width:230px;
+  }
+  .project-inner-right-name{
+    font-size: 1.2rem;
+  }
+  .project-inner-right-description{
+    font-size:0.8rem;
+  }
+  .projectEachTag{
+  
+    font-size: 0.6rem;
+  }
+  .project-inner-right-availableText{
+    font-size: 0.9rem;
+    
+  }
+
+
+}
+
+

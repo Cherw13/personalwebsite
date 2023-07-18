@@ -1,0 +1,29 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+#footer {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  align-items: center;
+  width: 100vw;
+  bottom: 0px;
+  padding: 20px;
+  background:#ECB9CB;
+  color: black;
+  font-size: 10px;
+}
+
+#footer i {
+  color: white;
+  font-size: 24px;
+}
+
+#footer a {
+  color: black;
+  text-decoration: none;
+}
+
+#footer p {
+  font-size: 16px;
+}
