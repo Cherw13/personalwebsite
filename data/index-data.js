@@ -8,7 +8,7 @@ const highlightProjects = [
         destination: "nyuShuttle.html"
     },
     {
-        name: "Project Two ",
+        name: "NARY Website  ",
         description: "Coming soon...",
         tags: ["UX DESIGN",],
         image: "images/project2.png",

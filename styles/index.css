@@ -8,7 +8,7 @@ html{
 .sectionOne {
   position: relative;
   overflow: hidden;
-  height: 85vh;
+  height: 80vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,6 @@ html{
 }
 .scroll-down{
   color:black;
-  position:absolute;
   top:60%;
 }
 .scroll-down i{
@@ -205,11 +204,17 @@ html{
   .right-1{
     order:1;
   }
-
 }
+
+@media only screen and (max-width: 550px){
+  .sectionOne{
+    padding: 0 20px;
+  }
+}
+
 @media only screen and (max-width:417px){
   .project-inner-left img{
-    padding-bottom: 1vh;
+    
     width:270px;
     }
 }
@@ -222,7 +227,7 @@ html{
   }
 
   .project-inner-left img{
-    padding-bottom: 1vh;
+    
     width:230px;
   }
   .project-inner-right-name{

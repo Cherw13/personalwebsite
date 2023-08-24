@@ -42,7 +42,7 @@ handleResize();
 let isClosed = false;
 document.querySelector("#menus").addEventListener("click", ()=>{
   let height;
-  isClosed ? height = "0px" : height = "272px";
+  isClosed ? height = "0px" : height = "160px";
   isClosed = !isClosed;
   document.querySelector("#rightHeader").style.setProperty("--right-header-height",height);
 });

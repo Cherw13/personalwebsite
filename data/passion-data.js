@@ -13,6 +13,5 @@ const passionProject = [
     tags:["P5.JS", "Illustrator"],
     color: "#FFCBC8",
     link: "https://editor.p5js.org/cw3686/sketches/kunb1juni"
-  },
- 
+  } 
 ];
