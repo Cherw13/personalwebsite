@@ -4,7 +4,9 @@ header.innerHTML=
 
 ` <div id = 'leftHeader'>
     
-    <img src="images/PersonalBrandLogo.png" alt="logo" class="leftHeader-logo" />
+<a href="index.html">
+  <img src="images/PersonalBrandLogo.png" alt="logo" class="leftHeader-logo" />
+</a>
    <div id="menus" ><i data-feather="menu"></i> </div>
   </div>
 

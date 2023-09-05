@@ -8,7 +8,7 @@ html, body{
 .row{
   display:flex;
   flex-direction: row;
-  background-color:#eee8e8;
+  background-color:#ECB9CB;
   overflow-x: hidden;
 }
 .about-col-1{

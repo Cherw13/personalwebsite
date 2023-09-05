@@ -1,0 +1,129 @@
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+.sectionOneProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #EBE7DF;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.nameOfProject{
+  font-weight: 600;
+  font-size: 2.1vw;
+}
+.project-image{
+  width: 54vw;
+  padding-right:14vw;
+}
+.text{
+  font-family: 'Poppins', sans-serif;
+  padding:20px;
+  margin-left: 6vw;
+}
+.timeAndstrategies{
+  font-weight: 400;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+.link{
+  font-weight:400;
+  color: black;
+}
+.descriptionOfProject{
+  margin-top: 1vw;
+  width: 50vw;
+  font-size: 1.26vw;
+  
+}
+.finalPrototypebtn{
+  display: inline-block;
+  padding:13px 30px;
+  background-color: #BDB8AF;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 3vw;
+  transition: all 0.2s ease;
+}
+
+.finalPrototypebtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.context{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 10vw;
+  align-items: center; /* vertically center the content */
+  justify-content: center; /* horizontally center the content */
+}
+.contextTitle{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+text-align: center;
+font-weight: 600;
+margin-top: 6vw;
+margin-bottom: 1vw;
+font-size: 25px;
+}
+.contextDescription{
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3vw;
+  padding:60px;
+  
+}
+.sub{
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.process-timeline{
+  width: 100vw;
+  justify-content: center;
+  display: inline-block;
+
+}
+@media only screen and (max-width:800px){
+  .sectionOneProject {
+    flex-direction: column;
+  }
+
+  .text{
+    order:2;
+    margin-left:7%;
+  }
+
+  .descriptionOfProject{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    font-size:15px;
+  }
+
+  .timeAndstrategies{
+    font-size:15px;
+  }
+
+  .project-image{
+    width:100vw;
+    margin-left:10vw;
+    order:1;
+  }
+  .contextDescription{
+    
+    padding:0px;
+    
+  }
+}
