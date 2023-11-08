@@ -209,7 +209,7 @@ html{
   
 @media only screen and (max-width: 550px){
   .sectionOne{
-    padding: 0 20px;
+    padding: 70px 20px;
     height: 100vw;
   }
 }
@@ -217,7 +217,7 @@ html{
 @media only screen and (max-width:417px){
   .project-inner-left img{
     
-    width:270px;
+    width:300px;
     }
 }
 @media only screen and (max-width:270px){

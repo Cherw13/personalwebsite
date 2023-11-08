@@ -16,7 +16,6 @@
 <!--links to other files --> 
 <link rel="stylesheet" href="styles/header.css " >
 <link rel="stylesheet" href="styles/footer.css " >
-<link rel="stylesheet" href="styles/about.css " >
 <link rel="stylesheet" href="styles/nary.css " >
   </head>
   <body>
@@ -33,7 +32,7 @@
           <a href="https://naryresort.com" target="_blank">Naryresort.com</a>
         </h4>
         
-        <div class="finalPrototypebtn" onclick="scrollToPrototype()">See Final Prototype</div>
+        <div class="finalPrototypebtn" onclick="scrollToPrototype()">See Final Design</div>
     </div>
       
         <img src="images/nary.png" class="project-image">
@@ -64,6 +63,9 @@
   <li>- pregnant people</li>
 </ul>
 <br> <br>
+</div>
+
+<div class = "context2">
 <h2 class = "contextTitle">UX Redesign</h2>
       <h3 class = "contextDescription">   
       <br><br>
@@ -76,23 +78,50 @@
       </ul>
       After going over all the issues with my supervisor, I started mocking up design solutions for the home page and clothing purchasing page. Below is a comparison between the original product detailed page and the redesigned one for the <strong>home page </strong>
       </h3>
+    </div>
 
-
-    <img src="images/narybeforeafter.png" class="process-timeline">
+    <div class = "header">
+      <h2 class = "headerTitle"> Home Page</h2>
+      <h3 class = "headerDescription"> 
+        This is the before and after display of what is changes for the clothing pages before and after
+     </h3> 
+    </div>
+    <img src="images/naryresort/narybeforeafter.png" class="process-timeline">
 
     <video controls class="process-timeline">
       <source src="images/mainpage.mp4" type="video/mp4">
     </video>
 
-    <img src="images/narybeforeafter2.png" class="process-timeline">
-
-    
-    <div class="picture-grid">
-      <div class="grid-item"><img src="email1.jpg" alt="email 1"></div>
-      <div class="grid-item"><img src="email2.jpg" alt="email 2"></div>
-      <div class="grid-item"><img src="email3.jpg" alt="email 3"></div>
-      <div class="grid-item"><img src="email4.jpg" alt="email 4"></div>
+    <div class = "header">
+      <h2 class = "headerTitle"> Clothing Page redesign</h2>
+      <h3 class = "headerDescription"> 
+     This is the before and after display of what is changes for the clothing pages before and after
+     </h3> 
+    </div>
+    <img src="images/naryresort/narybeforeafter2.png" class="process-timeline">
+    <div class = "header">
+      <h2 class = "headerTitle"> Final Clothing Page Design</h2>
+      <h3 class = "headerDescription"> 
+     This is final design for the clothing page made on shopify
+     </h3> 
+    </div>
+    <video controls class="process-timeline">
+      <source src="images/naryresort/naryclothingpage.mp4" type="video/mp4">
+    </video>
+    <div class = "header">
+      <h2 class = "headerTitle"> Email Newletters</h2>
+      <h3 class = "headerDescription"> 
+     I work on designing weekly emails based on cater to promote different NARY clothing pieces in unquie ways
+     </h3> 
+    </div>
+  <div class="picture-grid">
+      <div class="grid-item"><img src="images/naryresort/email1.jpg" alt="email 1"></div>
+      <div class="grid-item"><img src="images/naryresort/email2.png" alt="email 2"></div>
+      <div class="grid-item"><img src="images/naryresort/email3.png" alt="email 3"></div>
+      <div class="grid-item"><img src="images/naryresort/email4.png" alt="email 4"></div>
+      <div class="grid-item"><img src="images/naryresort/email5.png" alt="email 5"></div>
   </div>
+
  
 
 
@@ -106,15 +135,22 @@
           prototypeSectionElement.scrollIntoView({ behavior: "smooth" });
       }
   </script>
-  
+
    <!--animations --> 
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-   <!--font icons --> 
-   <script src="https://kit.fontawesome.com/44e15d51c6.js" crossorigin="anonymous"></script>
+    
    <script src="https://unpkg.com/feather-icons"></script>
    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-   <!--links to other css files --> 
+   <script src="data/index-data.js"></script>
+   <script src="script/index.js"></script>
    <script src="script/header.js"></script>
    <script src="script/footer.js"></script>
+   <script>
+     AOS.init({
+       offset:220,
+       duration:200,
+       mirror: true,
+     });
+   </script>
   </body>
 </html>
